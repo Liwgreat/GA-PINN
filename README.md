@@ -22,8 +22,8 @@ Different Method/
 └── saved_model # Saving the Experimental Result Model
 ```
 
-## Code
-- [GA-PINN](src/function.py)
+## GA-PINN in Solving Forward problems
+### Code
 - GA-PINN [Forward problems]
     - [Burgers](src/function.py)
     - [Heat](src/function.py)
@@ -32,14 +32,21 @@ Different Method/
     - [KdV](src/function.py)
     - [Poisson](src/function.py)
     - [Schrodinger](src/function.py)
+
+## GA-PINN in Solving Inverse problems
+### Code
 - GA-PINN [Inverse problems]
     - [Allen-Cahn](src/function.py)
     - [Burgers](src/function.py)
     - [Diffusion Equation](src/function.py)
     - [Lorenz System](src/function.py)
+## GA-DGM
+### Code
 - GA-DGM
     - [Poisson](src/function.py)
     - [HD-Poisson](src/function.py)
+## GA-DRM
+### Code
 - GA-DRM
     - [Poisson](src/function.py)
     - [HD-Poisson](src/function.py)
