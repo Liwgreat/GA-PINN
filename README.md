@@ -14,13 +14,13 @@ combine the GA mechanism with the deep Ritz method (DRM) and the deep Galerkin m
 
 ```plaintext
 Different Method/
-├── experimental_data
-├── figures
+├── experimental_data # Data from Experimental Results
+├── figures # Images Created from Data Derived from Experimental Results
 ├── main_code
 │   ├── example.ipynb
-│   └── models_all.py
-├── plot_code
-└── saved_model
+│   └── models_all.py # Network Architecture Code
+├── plot_code 
+└── saved_model # Saving the Experimental Result Model
 ```
 
 ## Installation
