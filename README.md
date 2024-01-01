@@ -11,7 +11,6 @@ Physics-informed neural networks (PINNs) provide a deep learning framework for n
 combine the GA mechanism with the deep Ritz method (DRM) and the deep Galerkin method (DGM) to form GA-DRM and GA-DGM, respectively. The experimental results validate their superiority as well.
 
 ## Folder tree
-
 ```plaintext
 Different Method/
 ├── experimental_data # Data from Experimental Results
@@ -24,19 +23,24 @@ Different Method/
 ```
 
 ## Code
-
 - [GA-PINN](src/function.py)
 - GA-PINN [Forward problems]
-    - [Burgers]
-    - [Heat]
-    - [Helmholtz]
-    - [KdV]
-    - [Poisson]
-    - [Schrodinger]
+    - [Burgers](src/function.py)
+    - [Heat](src/function.py)
+    - [Helmholtz](src/function.py)
+    - [HD-Poisson](src/function.py)
+    - [KdV](src/function.py)
+    - [Poisson](src/function.py)
+    - [Schrodinger](src/function.py)
 - GA-PINN [Inverse problems]
-    - [Allen-Cahn]
-    - [Burgers]
-    - [Diffusion Equation]
-    - [Lorenz System]
-
+    - [Allen-Cahn](src/function.py)
+    - [Burgers](src/function.py)
+    - [Diffusion Equation](src/function.py)
+    - [Lorenz System](src/function.py)
+- GA-DGM
+    - [Poisson](src/function.py)
+    - [HD-Poisson](src/function.py)
+- GA-DRM
+    - [Poisson](src/function.py)
+    - [HD-Poisson](src/function.py)
 
