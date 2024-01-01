@@ -1,4 +1,9 @@
 # GA-PINN
+![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
+![PyTorch Version](https://img.shields.io/badge/pytorch-1.10.0-brightgreen.svg)
+
+
+
 The paper is "GA-PINNs: Generative Adversarial Physics-informed Neural Networks for Solving Forward and Inverse PDE Problem with Small Labeled Samples
 Introduction"
 
@@ -7,7 +12,31 @@ combine the GA mechanism with the deep Ritz method (DRM) and the deep Galerkin m
 
 ## Folder tree
 
-
+```plaintext
+Your-Project-Name/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── data/
+│   ├── processed/
+│   └── raw/
+├── docs/
+│   ├── conf.py
+│   └── index.rst
+├── notebooks/
+│   ├── exploration.ipynb
+│   └── experiments.ipynb
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── module1.py
+│   └── module2.py
+└── tests/
+    ├── __init__.py
+    ├── test_module1.py
+    └── test_module2.py
+```
 
 ## Installation
 
