@@ -26,13 +26,17 @@ Different Method/
 ## Code
 
 - [GA-PINN](src/function.py)
-- [GA-PINN] Forward PDE problems
-    - [Poisson equation in 1D]
-    - [Diffusion-reaction equation]
-    - [Poisson equation in 2D]
-- Inverse PDEs problems
-    - Brinkman-Forchheimer model
-        - [Case 1]
-        - [Case 2]
-    - [Diffusion-reaction system]
+- GA-PINN [Forward problems]
+    - [Burgers]
+    - [Heat]
+    - [Helmholtz]
+    - [KdV]
+    - [Poisson]
+    - [Schrodinger]
+- GA-PINN [Inverse problems]
+    - [Allen-Cahn]
+    - [Burgers]
+    - [Diffusion Equation]
+    - [Lorenz System]
+
 
