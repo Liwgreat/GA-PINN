@@ -13,29 +13,14 @@ combine the GA mechanism with the deep Ritz method (DRM) and the deep Galerkin m
 ## Folder tree
 
 ```plaintext
-Your-Project-Name/
-├── .gitignore
-├── LICENSE
-├── README.md
-├── data/
-│   ├── processed/
-│   └── raw/
-├── docs/
-│   ├── conf.py
-│   └── index.rst
-├── notebooks/
-│   ├── exploration.ipynb
-│   └── experiments.ipynb
-├── requirements.txt
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── module1.py
-│   └── module2.py
-└── tests/
-    ├── __init__.py
-    ├── test_module1.py
-    └── test_module2.py
+Different Method/
+├── experimental_data
+├── figures
+├── main_code
+│   ├── example.ipynb
+│   └── models_all.py
+├── plot_code
+└── saved_model
 ```
 
 ## Installation
