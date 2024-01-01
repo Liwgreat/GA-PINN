@@ -25,16 +25,14 @@ Different Method/
 
 ## Code
 
-- [Function approximation](src/function.py)
-- Forward PDE problems
-    - [Poisson equation in 1D](src/poisson_1d.py)
-    - [Diffusion-reaction equation](src/diffusion_reaction.py)
-    - [Poisson equation in 2D](src/poisson_2d.py)
+- [GA-PINN](src/function.py)
+- [GA-PINN] Forward PDE problems
+    - [Poisson equation in 1D]
+    - [Diffusion-reaction equation]
+    - [Poisson equation in 2D]
 - Inverse PDEs problems
     - Brinkman-Forchheimer model
-        - [Case 1](src/brinkman_forchheimer_1.py)
-        - [Case 2](src/brinkman_forchheimer_2.py)
-    - [Diffusion-reaction system](src/diffusion_reaction_inverse.py)
-- gPINN enhanced by RAR
-    - [Burgers' equation](src/burgers.py)
-    - [Allen-Cahn equation](src/allen_cahn.py)
+        - [Case 1]
+        - [Case 2]
+    - [Diffusion-reaction system]
+
