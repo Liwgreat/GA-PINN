@@ -9,4 +9,11 @@ Introduction
 ## Installation
 
 
-## Installation
+## GA-PINN (Forward Problems)
+
+
+## GA-PINN (Inverse Problems)
+
+## GA-DGM
+
+## GA-DRM
