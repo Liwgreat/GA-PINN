@@ -1,6 +1,5 @@
 # GA-PINN
 
-Usage for Academic Purposes
 
 ## Usage for Academic Purposes
 
