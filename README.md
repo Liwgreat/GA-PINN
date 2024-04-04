@@ -14,7 +14,7 @@ Physics-informed neural networks (PINNs) provide a deep learning framework for n
 This code is provided for academic purposes related to the submission of our paper titled "GA-PINNs: Generative Adversarial Physics-informed Neural Networks for Solving Forward and Inverse PDE Problem with Small Labeled Samples
 Introduction". The use of this code is restricted to academic review and study in the context of this paper.
 
-> Please note that all the code will be displayed after the paper is formally accepted. Currently, the paper is under review, and we will only showcase experiments related to the Schr\"odinger equation  in the forward problem and experiments related to the Burgers' equation in the inverse problem.
+> Please note that all the code will be displayed after the paper is formally accepted. Currently, the paper is under review, and we will only showcase experiments related to the Schrödinger equation  in the forward problem and experiments related to the Burgers' equation in the inverse problem.
 
 ### Restrictions
 
