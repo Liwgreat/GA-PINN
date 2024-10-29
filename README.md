@@ -30,8 +30,10 @@ Introduction". The use of this code is restricted to academic review and study i
 - **No Commercial Use**: This code is strictly for academic use and may not be used for any commercial purposes.
     
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
+![PyDOE Version](https://img.shields.io/badge/PyDOE-0.3.8-blue.svg)
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.10.0-brightgreen.svg)
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.9.0-brightgreen.svg)
+
 
 ## Folder tree
 ```plaintext
@@ -49,18 +51,17 @@ Different Method/
 ### Code
 - GA-PINN [Forward problems]
     - [Burgers](/GA-PINNs(Forward_Problem)/Burgers)
-    - [Heat](src/function.py)
-    - [Helmholtz](src/function.py)
-    - [HD-Poisson](src/function.py)
-    - [KdV](src/function.py)
-    - [Poisson](src/function.py)
-    - [Schrodinger](src/function.py)
+    - [Heat](/GA-PINNs(Forward_Problem)/Heat)
+    - [Helmholtz](/GA-PINNs(Forward_Problem)/Helmholtz)
+    - [HD-Poisson](/GA-PINNs(Forward_Problem)/Poisson-HD)
+    - [Poisson](/GA-PINNs(Forward_Problem)/Poisson)
+    - [Schrodinger](/GA-PINNs(Forward_Problem)/Schrodinger)
 
 ## GA-PINN in Solving Inverse problems
 ### Code
 - GA-PINN [Inverse problems]
-    - [Allen-Cahn](src/function.py)
-    - [Burgers](src/function.py)
-    - [Diffusion Equation](src/function.py)
-    - [Lorenz System](src/function.py)
+    - [Allen-Cahn](/GA-PINNs(Inverse_Problem)/Allen-Cahn)
+    - [Burgers](/GA-PINNs(Inverse_Problem)/Burgers)
+    - [Diffusion Equation](/GA-PINNs(Inverse_Problem)/Diffusion)
+    - [Lorenz System](/GA-PINNs(Inverse_Problem)/Lorenz_System)
 
