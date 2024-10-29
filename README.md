@@ -22,7 +22,8 @@ Introduction". The use of this code is restricted to academic review and study i
 > Please note that all the code will be displayed after the paper is formally accepted. Currently, the paper is under review, and we will only showcase experiments related to the Schrödinger equation  in the forward problem and experiments related to the Burgers' equation in the inverse problem.
 
 ### Requirements
-    
+[Details in requirements.md](requirements.md)  
+
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 ![PyDOE Version](https://img.shields.io/badge/PyDOE-0.3.8-blue.svg)
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.10.0-brightgreen.svg)
