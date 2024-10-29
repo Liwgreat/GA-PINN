@@ -1,7 +1,12 @@
 # GA-PINN
 
 
+### Initial Work Reference:
+[Revisiting PINNs: Generative Adversarial Physics-Informed Neural Networks and Point-Weighting Method](https://arxiv.org/abs/2205.08754)
 
+### Please note:
+- The forward problems in this repository utilize PyTorch version **1.10.0**.
+- The inverse problems are implemented using PyTorch version **1.9.0** to meet basic requirements.
 
 "GA-PINNs: Generative Adversarial Physics-informed Neural Networks for Solving Forward and Inverse PDE Problem with Small Labeled Samples
 Introduction"
@@ -43,7 +48,7 @@ Different Method/
 ## GA-PINN in Solving Forward problems
 ### Code
 - GA-PINN [Forward problems]
-    - [Burgers](src/function.py)
+    - [Burgers](src/GA-PINNs(Forward_Problem)/Burgers)
     - [Heat](src/function.py)
     - [Helmholtz](src/function.py)
     - [HD-Poisson](src/function.py)
@@ -58,14 +63,4 @@ Different Method/
     - [Burgers](src/function.py)
     - [Diffusion Equation](src/function.py)
     - [Lorenz System](src/function.py)
-## GA-DGM
-### Code
-- GA-DGM
-    - [Poisson](src/function.py)
-    - [HD-Poisson](src/function.py)
-## GA-DRM
-### Code
-- GA-DRM
-    - [Poisson](src/function.py)
-    - [HD-Poisson](src/function.py)
 
