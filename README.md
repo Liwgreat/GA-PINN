@@ -21,13 +21,7 @@ Introduction". The use of this code is restricted to academic review and study i
 
 > Please note that all the code will be displayed after the paper is formally accepted. Currently, the paper is under review, and we will only showcase experiments related to the Schrödinger equation  in the forward problem and experiments related to the Burgers' equation in the inverse problem.
 
-### Restrictions
-
-- **No Downloading**: The code provided in this repository is for viewing and discussion related to the academic paper only. Downloading, copying, or redistributing this code for any other purpose is strictly prohibited.
-
-- **No Modification**: The code may not be modified, altered, or used as a basis for other projects without explicit permission from the authors.
-
-- **No Commercial Use**: This code is strictly for academic use and may not be used for any commercial purposes.
+### Requirement
     
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 ![PyDOE Version](https://img.shields.io/badge/PyDOE-0.3.8-blue.svg)
