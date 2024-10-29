@@ -31,7 +31,7 @@ Introduction". The use of this code is restricted to academic review and study i
     
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.10.0-brightgreen.svg)
-
+![PyTorch Version](https://img.shields.io/badge/pytorch-1.9.0-brightgreen.svg)
 
 ## Folder tree
 ```plaintext
@@ -48,7 +48,7 @@ Different Method/
 ## GA-PINN in Solving Forward problems
 ### Code
 - GA-PINN [Forward problems]
-    - [Burgers](src/GA-PINNs(Forward_Problem)/Burgers)
+    - [Burgers](/GA-PINNs(Forward_Problem)/Burgers)
     - [Heat](src/function.py)
     - [Helmholtz](src/function.py)
     - [HD-Poisson](src/function.py)
