@@ -7,12 +7,12 @@ def weights_init(m):
     if isinstance(m, nn.Linear):
         nn.init.xavier_normal_(m.weight)
         nn.init.constant_(m.bias, 0)
-    # 也可以判断是否为conv2d，使用相应的初始化方式 
+
     elif isinstance(m, nn.Conv2d):
         #nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
         nn.init.xavier_normal_(m.weight)
         nn.init.constant_(m.bias, 0)
-     # 是否为批归一化层
+
     elif isinstance(m, nn.BatchNorm2d):
         nn.init.constant_(m.weight, 1)
         nn.init.constant_(m.bias, 0)
@@ -28,7 +28,7 @@ class hidden_layers(nn.Module):
 
 class NN_H2 (nn.Module):
     def __init__(self,in_N, width, depth, out_N):
-        #depth = 实际网络层数-2
+
         super(NN_H2, self).__init__()
         self.in_N = in_N
         self.width = width
@@ -52,7 +52,7 @@ class NN_H2 (nn.Module):
 
 class get_discriminator(nn.Module):
     def __init__(self,in_N, width, depth, out_N):
-        #depth = 实际网络层数-2
+
         super(get_discriminator, self).__init__()
         self.in_N = in_N
         self.width = width

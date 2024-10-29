@@ -50,7 +50,7 @@ class NN_H2 (nn.Module):
 
 class get_discriminator(nn.Module):
     def __init__(self,in_N, width, depth, out_N):
-        #depth = 实际网络层数-2
+   
         super(get_discriminator, self).__init__()
         self.in_N = in_N
         self.width = width
