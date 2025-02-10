@@ -50,7 +50,7 @@ Different Method/
     - [Helmholtz](/GA-PINNs(Forward_Problem)/Helmholtz)
     - [HD-Poisson](/GA-PINNs(Forward_Problem)/Poisson-HD)
     - [Poisson](/GA-PINNs(Forward_Problem)/Poisson)
-    - [Schrodinger](/GA-PINNs(Forward_Problem)/Schrodinger)
+    - [Schrödinger](/GA-PINNs(Forward_Problem)/Schrodinger)
 
 ## GA-PINN in Solving Inverse problems
 ### Code
