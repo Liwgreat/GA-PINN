@@ -9,8 +9,7 @@
 
 
 ### Please note:
-- The forward problems in this repository utilize PyTorch version **1.10.0**.
-- The inverse problems are implemented using PyTorch version **1.9.0** to meet basic requirements.
+The observation data is important for PINNs to solve inverse problems. We take the three well-known PDE (Burgers, Allen-Cahn and reaction-diffusion) inverse problems as the examples. The structure of the discriminator should be similar to that of the generator. Especially, the discriminator has half the number of layers as the generator due to the size of labeled samples is small.
 
 
 ### Requirements
@@ -19,7 +18,6 @@
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 ![PyDOE Version](https://img.shields.io/badge/PyDOE-0.3.8-blue.svg)
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.10.0-brightgreen.svg)
-![PyTorch Version](https://img.shields.io/badge/pytorch-1.9.0-brightgreen.svg)
 
 
 ## Folder tree
