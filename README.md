@@ -33,7 +33,11 @@ PDE Name/
 ```
 
 ### Experimental results:
-
+| PDE Name    | Curves of estimated parameter      | Curves of  NRMSE                       |
+|-------------|--------------------------------------|--------------------------------------|
+| Allen-Cahn | ![C](./Allen_Cahn/figures/Allen_Cahn_C.png) | ![NRMSE](./Allen_Cahn/figures/Allen_Cahn_NRMSE.png) |
+| Burgers    | ![C](./Burgers/figures/Burgers_C.png) | ![NRMSE](./Burgers/figures/Burgers_NRMSE.png) |
+| reaction-diffusion  | ![C](./reaction_diffusion/figures/Diffusion_C.png) | ![NRMSE](./reaction_diffusion/figures/Diffusion_NRMSE.png) |
 
 
 ## Thanks.
