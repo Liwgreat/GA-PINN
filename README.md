@@ -13,7 +13,6 @@ The observation data is important for PINNs to solve inverse problems. We take t
 
 
 ### Requirements
-[Details in requirements.md](requirements.md)  
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)
 ![PyDOE Version](https://img.shields.io/badge/PyDOE-0.3.8-blue.svg)
@@ -22,31 +21,14 @@ The observation data is important for PINNs to solve inverse problems. We take t
 
 ## Folder tree
 ```plaintext
-Different Method/
+PDE Name/
 ├── experimental_data # Data from Experimental Results
 ├── figures # Images Created from Data Derived from Experimental Results
 ├── main_code
-│   ├── example.ipynb
-│   └── models_all.py # Network Architecture Code
+│   ├── method.ipynb
+│   └── utils_training.py # Network Architecture Code
 ├── plot_code 
 └── saved_model # Saving the Experimental Result Model
 ```
 
-## GA-PINN in Solving Forward problems
-### Code
-- GA-PINN [Forward problems]
-    - [Burgers](/GA-PINNs(Forward_Problem)/Burgers)
-    - [Heat](/GA-PINNs(Forward_Problem)/Heat)
-    - [Helmholtz](/GA-PINNs(Forward_Problem)/Helmholtz)
-    - [HD-Poisson](/GA-PINNs(Forward_Problem)/Poisson-HD)
-    - [Poisson](/GA-PINNs(Forward_Problem)/Poisson)
-    - [Schrödinger](/GA-PINNs(Forward_Problem)/Schrodinger)
-
-## GA-PINN in Solving Inverse problems
-### Code
-- GA-PINN [Inverse problems]
-    - [Allen-Cahn](/GA-PINNs(Inverse_Problem)/Allen-Cahn)
-    - [Burgers](/GA-PINNs(Inverse_Problem)/Burgers)
-    - [Diffusion Equation](/GA-PINNs(Inverse_Problem)/Diffusion)
-    - [Lorenz System](/GA-PINNs(Inverse_Problem)/Lorenz_System)
 
