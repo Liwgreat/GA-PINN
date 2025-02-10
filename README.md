@@ -41,7 +41,7 @@ PDE Name/
 
 
 ## Thanks.
-If this code repository was helpful to you, please cite the reference:
+If this code repository is helpful to you, please cite the reference:
 ```plaintext
 @article{li2025generative,
   title={Generative adversarial physics-informed neural networks for solving forward and inverse problem with small labeled samples},
